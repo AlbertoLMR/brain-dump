@@ -51,25 +51,25 @@ $on-laptop: 800px !default;
 }
 
 .site-footer .footer-heading {
-  display: none;
+  display: none !important;
 }
 
 .site-footer {
-  border-top: none;
+  border-top: none !important;
 }
 
 
 .site-footer p {
-  color: #2e2e3a
+  color: #2e2e3a !important; 
 }
 
 .footer-col-1 .contact-list {
-  display: none;
+  display: none !important;
 }
 
 .footer-col-3 {
-  width: 100%;
-  text-align: center;
+  width: 100% !important;
+  text-align: center !important;
 }
 
 .post-list {
@@ -79,5 +79,5 @@ $on-laptop: 800px !default;
 }}
 
 .page-heading {
-  display: none; 
+  display: none !important; 
 }
