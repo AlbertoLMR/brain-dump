@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Acerca mío
+title: Sobre mí
 ---
 
 # Cosas Sobre Mí

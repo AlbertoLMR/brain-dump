@@ -2,12 +2,12 @@
 layout: default
 title: Blog
 ---
-<h1>Posts Recientes</h1>
+<h1>Posts</h1>
 
-<ul>
+<ul class="post-list">
   {% for post in site.posts %}
     <li>
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ post.url | relative_url }}" class="post-link">{{ post.title }}</a></h2>
       {{ post.excerpt }}
     </li>
   {% endfor %}

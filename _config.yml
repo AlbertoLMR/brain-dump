@@ -1,3 +1,8 @@
 baseurl: "/brain-dump"
 url: "https://albertolmr.github.io"
 theme: minima
+
+header_pages:
+ - index.html
+ - blog.html
+ - about.md
