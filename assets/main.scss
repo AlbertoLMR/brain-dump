@@ -50,13 +50,34 @@ $on-laptop: 800px !default;
 }
 }
 
+.site-footer .footer-heading {
+  display: none;
+}
+
 .site-footer {
-  border: none
+  border-top: none;
+}
+
+
+.site-footer p {
+  color: #2e2e3a
+}
+
+.footer-col-1 .contact-list {
+  display: none;
+}
+
+.footer-col-3 {
+  width: 100%;
+  text-align: center;
 }
 
 .post-list {
   .post-link{
     color: #9c7deb;
     font-weight: bold;
-  }
+}}
+
+.page-heading {
+  display: none; 
 }
