@@ -73,17 +73,17 @@ $on-laptop: 800px !default;
 }
 
 .post-content p {
-  text-align: justify;
+  text-align: justify !important;
 }
 
 .post-content div[align="center"] p {
-  text-align: center;
+  text-align: center !important;
 }
 
 .post-list {
   .post-link{
-    color: #9c7deb;
-    font-weight: bold;
+    color: #9c7deb !important;
+    font-weight: bold !important;
 }}
 
 .page-heading {
@@ -91,38 +91,38 @@ $on-laptop: 800px !default;
 }
 
 .post-content a {
-  color: #9c7deb;
+  color: #9c7deb !important;
   
   &:visited {
-    color: #7a5fc7;
+    color: #7a5fc7 !important;
   }
   
   &:hover {
-    color: #FF7E70;
-    text-decoration: underline;
+    color: #FF7E70 !important;
+    text-decoration: underline !important;
   }
 }
 
 // Style for manual TOC with class "table-of-contents"
 ul.table-of-contents {
-  background: #f3f8ff;
-  border: 5px solid #c8e7d0;
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 0.5rem 0 2rem 0;
-  list-style: none;
+  background: #f3f8ff !important;
+  border: 5px solid #c8e7d0 !important;
+  border-radius: 8px !important;
+  padding: 1.5rem !important;
+  margin: 0.5rem 0 2rem 0 !important;
+  list-style: none !important;
   
   li {
-    margin: 0.5rem 0;
-    padding-left: 1rem;
-    
+    margin: 0.5rem 0 !important;
+    padding-left: 1rem !important;
+   
     a {
-      color: #9c7deb;
-      text-decoration: none;
-      font-weight: 500;
+      color: #9c7deb !important;
+      text-decoration: none !important;
+      font-weight: 500 !important;
       
       &:hover {
-        color: #FF7E70;
+        color: #FF7E70 !important;
       }
     }
   }
